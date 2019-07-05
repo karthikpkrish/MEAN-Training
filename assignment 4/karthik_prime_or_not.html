@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prime or not</title>
+</head>
+<body>
+	<h1>prime or not</h1>
+	<script type="text/javascript">
+		function prime_or_not(num1){
+			prime=false;
+			for(var i=2; i<num1; i++){		
+   			if (num1%i==0){
+   				prime=true;
+   				break;
+   			}
+   		}
+   		if(!prime){
+   			console.log('given number is prime number ' );
+ 		}else
+ 		{
+ 			console.log('given number is not prime number');
+ 		}
+ 	}
+ 		prime_or_not(21);
+		
+	</script>
+</body>
+</html>
+

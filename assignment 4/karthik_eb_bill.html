@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>electricity bill</title>
+</head>
+<body>
+	<h1>electricity bill</h1>
+	<script type="text/javascript">
+		function electricity_bill(num1)
+		{
+			if(num1<=100){
+				amount=num1*2;
+			}else if (num1>100 && num1<=200){
+				amount=(100*2)+((NUM1-100)*3);
+			}else if(num1>200){
+			amount=(100*2)+(100*3)+((NUM1-200)*4);
+		}
+			return amount;
+		}
+		amount=electricity_bill(250);
+		console.log('your EB bill is Rs.', amount);
+	</script>
+</body>
+</html>
